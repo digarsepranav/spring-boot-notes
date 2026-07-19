@@ -12,6 +12,8 @@ public class UserService {
         this.db = db;
     }
 
+    // Constructor injection
+
     public void saveUser(String user) {
         db.save("Pranav");
     }
