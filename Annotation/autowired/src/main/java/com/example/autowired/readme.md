@@ -1,0 +1,6 @@
+- Created Keyboard and Computer as Spring components.
+- Used constructor injection to inject the Keyboard bean into the Computer bean.
+- Learned that Spring automatically uses a single constructor for dependency injection without @Autowired (Spring 4.3+).
+- Understood why constructor injection allows dependencies to be final.
+- Configured component scanning using @Configuration and @ComponentScan.
+- Retrieved the Computer bean from the ApplicationContext and verified dependency injection by calling its methods.
